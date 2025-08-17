@@ -31,7 +31,7 @@ A real-time anonymous chat application built with React, Firebase, and deployed 
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/zayn-910/mystick
    cd anonymous-chat
    ```
 
@@ -69,14 +69,6 @@ A real-time anonymous chat application built with React, Firebase, and deployed 
    }
    ```
 5. Copy your Firebase config to `.env.local`
-
-### CAPTCHA Setup (Optional)
-
-1. Sign up for [Friendly Captcha](https://friendlycaptcha.com/)
-2. Create a new site and get your site key
-3. Add the site key to your `.env.local` file
-
-If no CAPTCHA key is provided, the app will use a demo mode with simulated verification.
 
 ## Deployment to Vercel
 
